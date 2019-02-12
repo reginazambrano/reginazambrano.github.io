@@ -60,8 +60,16 @@ body {
     margin-right: 233px;
     margin-left: 739px;
     position: absolute;
+    z-index: 30;
 }
 
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: -31px;
+    left: 562px;
+    opacity: .6;
+}
 
 /******* Text *******/
 
