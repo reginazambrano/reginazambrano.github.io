@@ -25,10 +25,12 @@ body {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    z-index: 30;
 }
 
 .left {
     margin-left: 100px;
+    z-index: 30;
 }
 
 .content {
@@ -41,12 +43,13 @@ body {
 .number-container {
     display: flex;
     position: absolute;
+    z-index: 30;
 }
 
 .number-container h1 {      /*   5   */
     font-size: 736px;
-    margin-left:575px;  
-    margin-right: 3px;  
+    left:575px;  
+    right: 3px;  
     margin-top: -8px;
     font-weight: normal;
 }
@@ -56,18 +59,17 @@ body {
     width: 52px;
     height: 52px;
     border-radius:50%;
-    margin-top: 620px;
-    margin-right: 233px;
-    margin-left: 739px;
+    top: 620px;
+    right: 230px;
     position: absolute;
-    z-index: 30;
+    z-index: 50;
 }
 
 .analysis {
     position: absolute;
     z-index:20;
     top: -31px;
-    left: 562px;
+    left: -12px;
     opacity: .6;
 }
 
@@ -112,6 +114,16 @@ body {
     display: flex;
     align-items: flex-start;
     
+}
+
+a {
+    color: #AD0000;
+    
+    
+}
+
+a:visited {
+    color: #AD0000;
 }
 
 /******* Number Samples *******/
