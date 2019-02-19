@@ -65,6 +65,10 @@ body {
     z-index: 50;
 }
 
+#button:hover {
+    background-color: #780000; 
+}
+
 .analysis {
     position: absolute;
     z-index:20;
@@ -133,8 +137,22 @@ a:visited {
     letter-spacing: 6px;
     margin-top: 64px;
     margin-right: 553px;
+    width: 365px;
+    overflow: auto;
+    white-space: nowrap;
 }
 
+.samples a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.samples a:hover {
+  background-color: #777;
+}
 /******* Sources *******/
 
 .sources h3, .sources p {
