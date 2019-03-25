@@ -3,7 +3,6 @@ $(document).ready(function (){
     $('#quickstart-button').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content").toggleClass("visible");
-        $(".blackout").toggleClass("visible");
         });
 });
 
@@ -12,25 +11,6 @@ $(document).ready(function (){
     $('#newgame').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content").toggleClass("visible");
-         $(".blackout").toggleClass("visible");
-        });
-});
-
-$(document).ready(function (){
-    //ID or Class name of the button goes into the first section
-    $('#xout').click(function() {
-        //ID or Class name of the modal you want to appear on click goes into this second area.    
-         $(".modal-content").toggleClass("visible");
-         $(".blackout").toggleClass("visible");
-        });
-});
-
-$(document).ready(function (){
-    //ID or Class name of the button goes into the first section
-    $('#xout').click(function() {
-        //ID or Class name of the modal you want to appear on click goes into this second area.    
-         $(".modal-content2").toggleClass("visible");
-         $(".blackout").toggleClass("visible");
         });
 });
 
@@ -39,7 +19,6 @@ $(document).ready(function (){
     $('#howplay').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content2").toggleClass("visible");
-        $(".blackout").toggleClass("visible");
         });
 });
 

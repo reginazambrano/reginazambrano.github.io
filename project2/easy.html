@@ -3,11 +3,20 @@
     <head>
     <title>Project 2</title>
     <link rel="stylesheet" href="assets/stylegame.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+        
+    <!--        jQuery     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/jquery.cycle2.min.js"></script>
+        
+        
     </head>
     
     <body>
         
+        <div class="sudoku">SUDOKU</div>
+        <div class="circle"></div>
+
         <div class="header">EASY</div>
         
         <div class="container">
@@ -16,13 +25,13 @@
             
             <div class="sidemenu">
             
-                <div><button id="newgame">New Game</button></div>
+                <div><button id="newgame">NEW GAME</button></div>
             
-                <div><button id="howplay">Instructions</button></div>
+                <div><button id="howplay">INSTRUCTIONS</button></div>
             
-                <div><a href=""><button id="">Sudoku Manual</button></a></div>
+                <div><a href="instructions.html"><button id="">RULES</button></a></div>
             
-                <div><a href="index.html"><button id="">Main Menu</button></a></div>
+                <div><a href="index.html"><button id="">MAIN MENU</button></a></div>
         
             </div>      
         
@@ -31,135 +40,921 @@
         <div class="column2">
             
             <div id="mammothsquare">   
-        
+                
+<!--                1           -->
                 <div class="large-square">
-        
+        <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-1" data-cycle-timeout="0" data-cycle-next="#box1-1"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
         <div class="small-square" id="box1-1"></div>
+    
+    <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-2" data-cycle-timeout="0" data-cycle-next="#box1-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->                
+    
         <div class="small-square" id="box1-2"></div>
+                    
         <div class="small-square static" id="box1-3">6</div>
+                    
+        <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-4" data-cycle-timeout="0" data-cycle-next="#box1-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
+
         <div class="small-square" id="box1-4"></div>
+                    
         <div class="small-square static" id="box1-5">1</div>
+                    
+                            <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-6" data-cycle-timeout="0" data-cycle-next="#box1-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
+
         <div class="small-square" id="box1-6"></div>
+                    
+        <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-7" data-cycle-timeout="0" data-cycle-next="#box1-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
         <div class="small-square" id="box1-7"></div>
+                    
+    
+                            <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-8" data-cycle-timeout="0" data-cycle-next="#box1-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
+
         <div class="small-square" id="box1-8"></div>
+                    
+                    
+                            <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis1-9" data-cycle-timeout="0" data-cycle-next="#box1-9"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->
+
         <div class="small-square" id="box1-9"></div>
         
         
     </div>
-        
+<!--                2           -->
                 <div class="large-square">
-        
-        <div class="small-square static" id="box1-1">4</div>
-        <div class="small-square" id="box1-2"></div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square static" id="box1-4">3</div>
-        <div class="small-square" id="box1-5"></div>
-        <div class="small-square" id="box1-6"></div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square static" id="box1-8">6</div>
-        <div class="small-square" id="box1-9"></div>
+    
+        <div class="small-square static" id="box2-1">4</div>
+                    
+        <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-2" data-cycle-timeout="0" data-cycle-next="#box2-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-2"></div>
+                    
+                       <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-3" data-cycle-timeout="0" data-cycle-next="#box2-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-3"></div>
+        <div class="small-square static" id="box2-4">3</div>
+                    
+                       <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-5" data-cycle-timeout="0" data-cycle-next="#box2-5"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-5"></div>
+                    
+                       <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-6" data-cycle-timeout="0" data-cycle-next="#box2-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-6"></div>
+                    
+                       <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-7" data-cycle-timeout="0" data-cycle-next="#box2-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-7"></div>
+        <div class="small-square static" id="box2-8">6</div>
+                    
+                       <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis2-9" data-cycle-timeout="0" data-cycle-next="#box2-9"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->    
+        <div class="small-square" id="box2-9"></div>
         
         
     </div>
-        
+<!--                3           -->
                 <div class="large-square">
         
-        <div class="small-square static" id="box1-1">1</div>
-        <div class="small-square static" id="box1-2">7</div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square static" id="box1-4">9</div>
-        <div class="small-square static" id="box1-5">6</div>
-        <div class="small-square" id="box1-6"></div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square static" id="box1-8">2</div>
-        <div class="small-square static" id="box1-9">4</div>
+        <div class="small-square static" id="box3-1">1</div>
+        <div class="small-square static" id="box3-2">7</div>
+                    
+            <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis3-3" data-cycle-timeout="0" data-cycle-next="#box3-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                -->           
+        <div class="small-square" id="box3-3"></div>
+        <div class="small-square static" id="box3-4">9</div>
+        <div class="small-square static" id="box3-5">6</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis3-6" data-cycle-timeout="0" data-cycle-next="#box3-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box3-6"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis3-7" data-cycle-timeout="0" data-cycle-next="#box3-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box3-7"></div>
+        <div class="small-square static" id="box3-8">2</div>
+        <div class="small-square static" id="box3-9">4</div>
             
         </div>
-        
+<!--                4           -->
                 <div class="large-square">
         
-        <div class="small-square static" id="box1-1">1</div>
-        <div class="small-square" id="box1-2"></div>
-        <div class="small-square static" id="box1-3">2</div>
-        <div class="small-square" id="box1-4"></div>
-        <div class="small-square" id="box1-5"></div>
-        <div class="small-square static" id="box1-6">4</div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square" id="box1-8"></div>
-        <div class="small-square" id="box1-9"></div>
+        <div class="small-square static" id="box4-1">1</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-2" data-cycle-timeout="0" data-cycle-next="#box4-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-2"></div>
+        <div class="small-square static" id="box4-3">2</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-4" data-cycle-timeout="0" data-cycle-next="#box4-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-4"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-5" data-cycle-timeout="0" data-cycle-next="#box4-5"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-5"></div>
+        <div class="small-square static" id="box4-6">4</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-7" data-cycle-timeout="0" data-cycle-next="#box4-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-7"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-8" data-cycle-timeout="0" data-cycle-next="#box4-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-8"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis4-9" data-cycle-timeout="0" data-cycle-next="#box4-9"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box4-9"></div>
             
     </div>
-        
+<!--                5           -->
                 <div class="large-square">
         
-        <div class="small-square" id="box1-1"></div>
-        <div class="small-square" id="box1-2"></div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square" id="box1-4"></div>
-        <div class="small-square static" id="box1-5">8</div>
-        <div class="small-square" id="box1-6"></div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square" id="box1-8"></div>
-        <div class="small-square" id="box1-9"></div>
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-1" data-cycle-timeout="0" data-cycle-next="#box5-1"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-1"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-2" data-cycle-timeout="0" data-cycle-next="#box5-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-2"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-3" data-cycle-timeout="0" data-cycle-next="#box5-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-3"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-4" data-cycle-timeout="0" data-cycle-next="#box5-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-4"></div>
+        <div class="small-square static" id="box5-5">8</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-6" data-cycle-timeout="0" data-cycle-next="#box5-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-6"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-7" data-cycle-timeout="0" data-cycle-next="#box5-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-7"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-8" data-cycle-timeout="0" data-cycle-next="#box5-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-8"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis5-9" data-cycle-timeout="0" data-cycle-next="#box5-9"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box5-9"></div>
             
     </div>
-            
+<!--                6           -->
                 <div class="large-square">
         
-        <div class="small-square" id="box1-1"></div>
-        <div class="small-square" id="box1-2"></div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square static" id="box1-4">6</div>
-        <div class="small-square" id="box1-5"></div>
-        <div class="small-square" id="box1-6"></div>
-        <div class="small-square static" id="box1-7">2</div>
-        <div class="small-square" id="box1-8"></div>
-        <div class="small-square static" id="box1-9">9</div>
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-1" data-cycle-timeout="0" data-cycle-next="#box6-1"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-1"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-2" data-cycle-timeout="0" data-cycle-next="#box6-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-2"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-3" data-cycle-timeout="0" data-cycle-next="#box6-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-3"></div>
+        <div class="small-square static" id="box6-4">6</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-5" data-cycle-timeout="0" data-cycle-next="#box6-5"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-5"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-6" data-cycle-timeout="0" data-cycle-next="#box6-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-6"></div>
+        <div class="small-square static" id="box6-7">2</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis6-8" data-cycle-timeout="0" data-cycle-next="#box6-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box6-8"></div>
+        <div class="small-square static" id="box6-9">9</div>
             
     </div>
-        
+<!--                7           -->
                 <div class="large-square">
         
-        <div class="small-square static" id="box1-1">8</div>
-        <div class="small-square static" id="box1-2">2</div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square" id="box1-4"></div>
-        <div class="small-square static" id="box1-5">2</div>
-        <div class="small-square static" id="box1-6">3</div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square static" id="box1-8">9</div>
-        <div class="small-square static" id="box1-9">5</div>
+        <div class="small-square static" id="box7-1">8</div>
+        <div class="small-square static" id="box7-2">4</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis7-3" data-cycle-timeout="0" data-cycle-next="#box7-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box7-3"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis7-4" data-cycle-timeout="0" data-cycle-next="#box7-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box7-4"></div>
+        <div class="small-square static" id="box7-5">2</div>
+        <div class="small-square static" id="box7-6">3</div>
+                    
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis7-7" data-cycle-timeout="0" data-cycle-next="#box7-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box7-7"></div>
+        <div class="small-square static" id="box7-8">9</div>
+        <div class="small-square static" id="box7-9">5</div>
             
     </div>
-        
+<!--                8           -->
                 <div class="large-square">
         
-        <div class="small-square" id="box1-1"></div>
-        <div class="small-square static" id="box1-2">3</div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square" id="box1-4"></div>
-        <div class="small-square" id="box1-5"></div>
-        <div class="small-square static" id="box1-6">5</div>
-        <div class="small-square" id="box1-7"></div>
-        <div class="small-square" id="box1-8"></div>
-        <div class="small-square static" id="box1-9">4</div>
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-1" data-cycle-timeout="0" data-cycle-next="#box8-1"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-1"></div>
+        <div class="small-square static" id="box8-2">3</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-3" data-cycle-timeout="0" data-cycle-next="#box8-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-3"></div>
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-4" data-cycle-timeout="0" data-cycle-next="#box8-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-4"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-5" data-cycle-timeout="0" data-cycle-next="#box8-5"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-5"></div>
+        <div class="small-square static" id="box8-6">5</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-7" data-cycle-timeout="0" data-cycle-next="#box8-7"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-7"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis8-8" data-cycle-timeout="0" data-cycle-next="#box8-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box8-8"></div>
+        <div class="small-square static" id="box8-9">4</div>
             
     </div>
-        
+<!--                9           -->
                 <div class="large-square">
         
-        <div class="small-square" id="box1-1"></div>
-        <div class="small-square" id="box1-2"></div>
-        <div class="small-square" id="box1-3"></div>
-        <div class="small-square" id="box1-4"></div>
-        <div class="small-square static" id="box1-5">4</div>
-        <div class="small-square" id="box1-6"></div>
-        <div class="small-square static" id="box1-7">8</div>
-        <div class="small-square" id="box1-8"></div>
-        <div class="small-square" id="box1-9"></div>
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-1" data-cycle-timeout="0" data-cycle-next="#box9-1"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-1"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-2" data-cycle-timeout="0" data-cycle-next="#box9-2"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-2"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-3" data-cycle-timeout="0" data-cycle-next="#box9-3"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-3"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-4" data-cycle-timeout="0" data-cycle-next="#box9-4"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-4"></div>
+        <div class="small-square static" id="box9-5">4</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-6" data-cycle-timeout="0" data-cycle-next="#box9-6"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-6"></div>
+        <div class="small-square static" id="box9-7">8</div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-8" data-cycle-timeout="0" data-cycle-next="#box9-8"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-8"></div>
+                    
+                      <!--           jQuery things        -->
+            <div class="cycle-slideshow analysis9-9" data-cycle-timeout="0" data-cycle-next="#box9-9"> 
+            <img src="assets/empty.png" width="50" height="50" alt="an empty .png place holder file" class="cycle-slide" />
+            <img src="assets/1.png" width="50" height="50" alt="1" class="cycle-slide" />
+            <img src="assets/2.png" width="50" height="50" alt="2" class="cycle-slide" />
+            <img src="assets/3.png" width="50" height="50" alt="3" class="cycle-slide" />
+            <img src="assets/4.png" width="50" height="50" alt="4" class="cycle-slide" />
+            <img src="assets/5.png" width="50" height="50" alt="5" class="cycle-slide" />
+            <img src="assets/6.png" width="50" height="50" alt="6" class="cycle-slide" />
+            <img src="assets/7.png" width="50" height="50" alt="7" class="cycle-slide" />
+            <img src="assets/8.png" width="50" height="50" alt="8" class="cycle-slide" />
+            <img src="assets/9.png" width="50" height="50" alt="9" class="cycle-slide" />
+            </div>
+       <!--                                --> 
+        <div class="small-square" id="box9-9"></div>
             
     </div>
         </div>
+            
+            <div class="background"></div>
         
         </div>
         
@@ -167,7 +962,7 @@
         
             <div class="answerkey">
             
-                <button>Answer Key</button>
+                <button>ANSWER KEY</button>
                 
             </div>
             
@@ -177,14 +972,15 @@
         
         <!--        MODAL CONTENT       -->
 <!--        level        -->
+        <div class="blackout"></div>
         <div class="modal-content">
         <div class="box">
-            <div class="boxtitle"><h2>Select Level of Difficulty</h2></div>
+            <div class="boxtitle"><h2>CHOOSE LEVEL</h2></div><div class="bar"></div>
             <div class="levelbuttons">
-                <div><a href=""><button id="xout">x</button></a></div>
-                <div><a href="easy.html"><button id="">Easy</button></a></div>
-                <div><a href="medium.html"><button id="">Medium</button></a></div>
-                <div><a href="hard.html"><button id="">Hard</button></a></div>
+                <div><span class="close" id="xout">&times;</span></div>
+                <div><a href="easy.html"><button id="mod">EASY</button></a></div>
+                <div><a href="medium.html"><button id="mod">MEDIUM</button></a></div>
+                <div><a href="hard.html"><button id="mod">HARD</button></a></div>
                 
             </div>
         </div>
