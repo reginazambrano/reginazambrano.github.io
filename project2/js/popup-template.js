@@ -9,6 +9,15 @@ $(document).ready(function (){
 
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
+    $('#newgamer').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.    
+         $(".modal-content").toggleClass("visible");
+//         $(".blackout").toggleClass("visible");
+        });
+});
+
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
     $('#newgame').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content").toggleClass("visible");
@@ -18,6 +27,16 @@ $(document).ready(function (){
 
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
+    $('#xoutr').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.    
+         $(".modal-content").toggleClass("visible");
+        $(".modal-content2").toggleClass("visible");
+         $(".blackout").toggleClass("visible");
+        });
+});
+
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
     $('#xout').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content").toggleClass("visible");
@@ -27,7 +46,7 @@ $(document).ready(function (){
 
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
-    $('#xout').click(function() {
+    $('#xout2').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.    
          $(".modal-content2").toggleClass("visible");
          $(".blackout").toggleClass("visible");
@@ -43,6 +62,15 @@ $(document).ready(function (){
         });
 });
 
+
+// Button to open a modal
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
+    $('#ak').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.
+        $("#easyak").toggleClass("visible");
+        });
+});
 
 //************************ Templates ************************
 

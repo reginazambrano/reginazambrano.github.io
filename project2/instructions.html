@@ -155,7 +155,9 @@
 <!--        CONTENT         -->
         
         <div class="rulesbox">
-            
+            <div class="strip"></div>
+            <div class="striph1"></div>
+            <div class="striph2"></div>
             <h3>Numbers 1 - 9</h3>
             <p>Sudoku is played on a grid of 9 x 9 spaces. Within the rows and columns are 9 “squares” (made up of 3 x 3 spaces). Each row, column and square (9 spaces each) needs to be filled out with the numbers 1-9, without repeating any numbers within the row, column or square. Does it sound complicated? As you can see from the image below of an actual Sudoku grid, each Sudoku grid comes with a few spaces already filled in; the more spaces filled in, the easier the game – the more difficult Sudoku puzzles have very few spaces that are already filled in.
             
@@ -174,6 +176,8 @@
             <p>In this case, we can quickly notice that there are already number 1s in the top left and center left squares of the grid (with number 1s circled in red). This means that there is only one space remaining in the far left column where a 1 could possibly go – circled in green. This is how the process of elimination works in Sudoku – you find out which spaces are available, which numbers are missing – and then deduce, based on the position of those numbers within the grid, which numbers fit into each space.</p>
             <p>Sudoku rules are relatively uncomplicated – but the game is infinitely varied, with millions of possible number combinations and a wide range of levels of difficulty. But it’s all based on the simple principles of using numbers 1-9, filling in the blank spaces based on deductive reasoning, and never repeating any numbers within each square, row or column.</p>
             
+            <div class="disclaimer"><p>All text and pictures are from Sudoku.com's "Sudoku Rules for Complete Beginners" published by Easybrain. <a href="https://sudoku.com/how-to-play/sudoku-rules-for-complete-beginners/" target="_blank">Click here to access website.</a> </p></div>
+            
 
 
  </div>
@@ -184,7 +188,7 @@
         <div class="buttonsinst">
         
         <div><a href="index.html"><button>MAIN MENU</button></a></div>
-        <div><button id="howplay">NEXT</button></div>
+        <div><button id="howplay" class="arrow2">&raquo;</button></div>
         
         
         </div>
@@ -199,23 +203,23 @@
             <div class="boxtitle"><h2>INSTRUCTIONS</h2></div>
             <div class="bar"></div>
              <div class="instructions"></div>
-                <div><span class="close" id="xout">&times;</span></div>
+                <div><span class="close" id="xout2">&times;</span></div>
                 <img src="./assets/sample.gif" width="50" height="50" class="gif">
-                <p>Click on a square until you reach the desired number.</p>
-            <div><button id="newgame">NEXT</button></div>
-             <div class="buttonbottom"><button id="circle"></button><button id="circle"></button></div>  
+            <p>Click on a square until you</p><p> reach the desired number.</p>
+            <div><button id="newgamer" class="arrow">&raquo;</button></div>
+<!--             <div class="buttonbottom"><button id="circle"></button><button id="circle"></button></div>  -->
             <div class="levelbuttons">                
             </div>
         </div>
         </div>
         
                 <!--        level        -->
-<!--        <div class="blackout"></div>-->
+        <div class="blackout"></div>
         <div class="modal-content">
         <div class="box">
             <div class="boxtitle"><h2>CHOOSE LEVEL</h2></div><div class="bar"></div>
             <div class="levelbuttons">
-                <div><span class="close" id="xout">&times;</span></div>
+                <div><span class="close" id="xoutr">&times;</span></div>
                 <div><a href="easy.html"><button id="mod">EASY</button></a></div>
                 <div><a href="medium.html"><button id="mod">MEDIUM</button></a></div>
                 <div><a href="hard.html"><button id="mod">HARD</button></a></div>
