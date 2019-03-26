@@ -582,7 +582,7 @@ button:hover {
     width: 10px;
     height: 392px;
     background-color: #1E425C;
-    position: fixed;
+    position: absolute;
     margin-left: 585px;
     top: 249px;
 }
