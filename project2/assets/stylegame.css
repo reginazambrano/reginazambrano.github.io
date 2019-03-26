@@ -580,7 +580,7 @@ button:hover {
 
 .strip{
     width: 10px;
-    height: 391px;
+    height: 392px;
     background-color: #1E425C;
     position: fixed;
     margin-left: 585px;
@@ -592,7 +592,7 @@ button:hover {
     width: 610px;
     height: 10px;
     position: absolute;
-    margin-top: -26px;
+    margin-top: -25px;
     margin-left: -15px;
 }
 
