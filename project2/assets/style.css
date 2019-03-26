@@ -118,12 +118,13 @@ button:hover {
     width: 534px;
     height: 491px;
     background-color: #1E425C;
-    left: 245px;
+    left: 30%;
     text-align: center;
     position: absolute;
     top: 139px;
     z-index: 40;
     border: 3px solid #A6C2CE;
+    margin: 0 auto;
 }
 
 .bar{
