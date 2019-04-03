@@ -1,0 +1,184 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #707070;
+}
+
+.linetop{
+    width: 100%;
+    height: 1em;
+    background-color: #9dc4d4;
+}
+
+/*
+.header{
+    display: flex;
+    margin-top: 1.6em;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+*/
+
+/*
+img{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+*/
+
+.personalinfo{
+    align-content: center;
+    justify-content: center;
+    padding: 3em;
+
+}
+
+.notname{
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+.info{
+    display: flex;
+    padding: 1.8em;
+}
+
+
+
+
+
+.top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 17px;
+    
+}
+
+h1{
+    font-weight: 400;
+    margin-bottom: .3em;
+    font-size: 1.68em;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+h3{
+    font-weight: 600;
+    margin-top: .75em;
+    font-size: 1em;
+}
+h4{
+    font-weight: 400;
+    font-style: italic;
+    margin-top: .5em;
+    font-size: 1em;
+
+}
+hr{
+    color: #9dc4d4;
+    margin-top: .3em;
+}
+
+ul{
+    margin-left: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: .3em;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media only screen and (min-width:960px) {
+    .linetop{
+        height: 1.5em
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    .everything{
+        display: flex;
+        
+    }
+    
+    
+    .circle{
+        width: 2.6em;
+        height: 2.6em;
+        background-color: #9dc4d4;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -4em;
+    }
+    
+    hr{
+        visibility: hidden;
+    }
+    
+    .personalinfo{
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 18em; 
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        margin-top: 1.5em;
+    }
+    
+    .info{
+        margin-left: 24em;
+    }
+    
+    .fix{
+        position: fixed;
+    }
+    
+    
+.slider{
+    height: 100%;
+    width: 12px;
+    position: fixed;
+    background-color: #9dc4d4;
+    margin-left: -3.1em;
+    margin-top:-1em;
+}
+    
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .left{
+        text-align: left;
+        margin: 0;
+/*        line-height: ;*/
+    }
+    
+    .right{
+        text-align: right;
+        margin: 0;
+    }
+    
+    .text{
+        margin-top: 1.5em;
+    }
+
+}
