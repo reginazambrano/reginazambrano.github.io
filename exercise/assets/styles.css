@@ -58,7 +58,7 @@ img{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 17px;
+    margin-top:   1.06em;
     
 }
 
@@ -70,7 +70,7 @@ h1{
 }
 h2{
     text-align: left;
-    margin-left: 0px;
+    margin-left: 0em;
     font-weight: 600;
     font-size: 1.25em;
 }
@@ -153,7 +153,7 @@ p{
     
 .slider{
     height: 100%;
-    width: 12px;
+    width: 0.75em;
     position: fixed;
     background-color: #9dc4d4;
     margin-left: -3.1em;
