@@ -1,0 +1,504 @@
+/*  FOR MOBILE  */
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.navbar a:hover,
+a:hover{
+    color: #E38F73;
+    cursor: pointer;
+}
+
+.navbar a{
+    color: white;
+}
+
+
+body{
+    background-color: #F7F6F4;
+    font-family: 'Raleway', sans-serif;
+    color: #525252;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    height: 17rem;
+    background-color: #CCD3C1;
+    position: absolute;
+    z-index: -1;
+    margin-top:-2.3125rem;
+}
+
+
+.regina{
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-top: 2.3125rem;
+    margin-bottom: 2.625rem;
+    color: white;
+}
+
+.menu{
+    font-size: 1.25rem;
+    font-weight: medium;
+    line-height: 2.5rem;
+}
+
+.project{
+    margin-top: 6rem;
+    text-align: center;
+    
+}
+
+.projects{
+    margin-top: 0;
+}
+
+.hat,
+.outline,
+.square{
+    visibility: hidden;
+}
+
+.picture img{
+    width: 100%;
+    height: auto; 
+    background-color: #D8D8D8;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.56rem;
+    margin-top: 1.4rem;
+}
+
+.description{
+    margin-top: .625rem;
+}
+
+.footer{
+
+    margin-top: 4.125rem;
+    
+}
+
+.backgroundb{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #CCD3C1;
+    z-index: -1;
+    position: absolute;
+}
+
+
+.nameb{
+    visibility: hidden;
+}
+
+.socialmedia{
+    display: flex;
+    margin-top:-.75rem;
+    justify-content: center; 
+    
+}
+
+.media img{
+    width: 1.625rem;
+    height: 1.625rem;
+    border-radius: 50%;
+}
+
+.media{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+
+.hola,
+.down,
+.timezones{
+    display: none;
+}
+
+.headshot{
+    margin-top: 15rem;
+    position: absolute;
+    background-color: #CCD3C1;
+    height: 100vh; 
+    width: 100%;
+    align-content: 
+}
+
+.headshot img{
+    width:150px;
+    height:auto;
+    border-radius: 50%;
+    margin-top: -5rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    
+}
+
+.aboutinfo{
+    position: absolute;
+    margin-top: 21rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.contactinfo h4{
+    font-size: .8rem;
+    letter-spacing: .2em;
+    padding: 1rem;
+    color: #E38F73;
+}
+
+.contactinfo{
+    text-align: center;
+    font-weight: 200;
+}
+
+.contactinfo .socialmedia{
+    margin-top: 3rem;
+}
+
+.contactinfo .media{
+    padding: 0;
+    margin: 0;
+    padding-left: 1.3rem
+}
+
+/****   FOR TABLET  ****/
+
+@media only screen and (min-width:600px){
+    
+    
+    body{
+    }
+    
+    
+    .header{
+        text-align: left;
+        height: 100vh;
+        background-color: #CCD3C1;
+        position:relative;
+    }
+    
+    
+    .navbar{
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+        margin-right: 3%;
+        padding-top: 3%;
+    }
+    
+    .regina{
+        font-size: 1.5rem;
+        margin:0;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+    
+    
+    .item{
+        margin-right: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    
+    .bienvenidos{
+        visibility: visible;
+        font-weight: 800;
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .hola{
+        margin-top: 10rem;
+        width: 34rem;
+        display: block;
+
+    }
+    
+    .welcome{
+        margin-top: -16rem;
+        position: absolute;
+        margin-left: -13rem;
+    }
+    
+    svg{
+        visibility: visible;
+        width: 23rem;
+        left: 28rem;
+        position: absolute;
+    }
+    
+    @keyframes welcome {
+    100% {
+        stroke-dashoffset: 0;
+    }
+    }   
+
+    #path{
+        stroke-dasharray: 8000;
+        stroke-dashoffset: 8000;
+        animation: welcome 3s linear forwards .5s;
+        stroke: #e38f73;
+    }
+    
+    .timezones{
+        margin-top: 15vh;
+        display: block;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    .time{
+        width: 10rem;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    h5{
+        font-weight: 400;
+        color:#E38F73;
+        margin-top: .8rem;
+    }
+
+    
+    .down{
+        display: block;
+        position: absolute;
+        margin-bottom: 0rem;
+        width: 100%;
+        align-items: center;
+        bottom: 5%;
+    }
+    
+    .line{
+        display: block;
+        display: flex;
+        align-content: center;
+    }
+    
+    .left{
+        width: 2.5rem;
+        height: .4rem;
+        background-color: white;
+        transform: rotate(30deg);
+        margin-right: -4px;
+    }
+    
+    .right{
+        width: 2.5rem;
+        height: .4rem;
+        background-color: white;
+        transform: rotate(-30deg);
+        margin-left: -4px;
+
+    }
+    
+    .left:hover + .right,
+    .left:hover,
+    .right:hover ~ div,
+    .right:hover{
+        background-color: #E38F73;
+        cursor: pointer;
+    }
+    
+    .line:hover div{
+        background-color: #E38F73;
+    }
+    
+    
+    .projects{
+        margin-top: 9rem;
+    }
+    
+    .outline{
+        width: 29rem;
+        height: 19.5rem;
+        position: absolute;
+        outline-color: #CCD3C1;
+        outline-width: 5px;
+        outline-style: solid;
+        margin-left: -1.5rem;
+        margin-top: -1.5rem;
+        visibility: visible;
+         
+    }
+    
+    .hat{
+        width: 31rem;
+        height: 11rem;
+        position: absolute;
+        background-color: #E38F73;
+        margin-left: -1rem;
+        margin-top: -1rem;
+        visibility: visible;
+    }
+    
+    .square{
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        background-color: #E38F73;
+        visibility: visible;
+    }
+    
+    .ul{
+        margin-left: -1rem;
+        margin-top: -1rem;
+    }
+    
+    .dr{
+        margin-left: 24rem;
+        margin-top: 14.5rem;
+    }
+    
+    .picture{
+        width: 29rem;
+        height: 19.5rem;
+        overflow: hidden;
+    }
+    
+    .picture img{
+        height: auto;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    
+    .title{
+        font-size: 2rem;
+        margin-top: 3.5rem;
+        width: 25rem;
+    }
+    
+    .description{
+        font-size: 1.25rem;
+        font-weight: lighter;
+        margin-top: 2rem;
+    }
+    
+    .backgroundb{
+    }
+    
+    .nameb{
+        visibility: visible;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        margin-left: 4%;
+        margin-top: .7rem;
+    }
+    
+    .bottom{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 
+    }
+    
+    .socialmedia{
+        margin-top:.5rem;
+        margin-right: 2%;
+    }
+    
+    .media img{
+        margin-right: 1rem;
+        width: 1.4rem;
+        height:1.4rem;
+    }
+    
+}
+
+@media only screen and (min-width:1030px){
+    body{
+    }
+    
+    .welcome{
+/*      move        */
+    }
+    
+    
+    .timezones{
+        display: flex;
+        width: 27.7rem;
+        margin-top: 17vh;
+        
+    }
+    
+    .down{
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+    
+    .projects{
+/*        margin-top: rem;*/
+    }
+    
+    .project{
+        display: flex;
+        text-align: left;
+        align-items: flex-end;
+        margin-top: 10rem;
+    }
+    
+    .picture{
+        width: 29rem;
+        height: 19.5rem;
+        margin-right: 0;
+        
+    }
+    
+    .text{
+        margin-left: 4.8rem;
+        margin-bottom: 0;
+    }
+    
+    .footer{
+        margin-top:14.5rem;
+    }
+    
+    .aboutinfo{
+        width: 50%;
+        
+    }
+    
+    .aboutinfo p{
+        font-size: 1.2rem
+    }
+
+}

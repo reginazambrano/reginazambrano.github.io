@@ -1,0 +1,376 @@
+/*  FOR MOBILE  */
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.navbar a:hover,
+a:hover{
+    color: #E38F73;
+    cursor: pointer;
+}
+
+.navbar a{
+    color: white;
+}
+
+
+
+body{
+    background-color: #F7F6F4;
+    font-family: 'Raleway', sans-serif;
+    color: #525252;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    height: 17rem;
+    background-color: #CCD3C1;
+    position: absolute;
+    z-index: -1;
+    margin-top:-2.3125rem;
+}
+
+.regina{
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-top: 2.3125rem;
+    margin-bottom: 2.625rem;
+    color: white;
+}
+
+.menu{
+    font-size: 1.25rem;
+    font-weight: medium;
+    line-height: 2.5rem;
+}
+
+.project{
+    margin-top: 6rem;
+    text-align: center;
+    
+}
+
+.picture{
+    width: 100vw;
+    height: auto; 
+    background-color: #D8D8D8;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.56rem;
+    margin-top: 1.4rem;
+}
+
+.description{
+    margin-top: .625rem;
+}
+
+.footer{
+
+    margin-top: 4.125rem;
+    
+}
+
+.backgroundb{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #CCD3C1;
+    z-index: -1;
+    position: absolute;
+}
+
+
+.nameb{
+    visibility: hidden;
+}
+
+.socialmedia{
+    display: flex;
+    margin-top:-.75rem;
+    justify-content: center;   
+    
+}
+
+.media{
+    width: 1.625rem;
+    height: 1.625rem;
+    border-radius: 50%;
+    background-color: #ADACAC;
+}
+
+.welcome{
+    visibility: hidden;
+}
+
+.timezones{
+    visibility: hidden;
+}
+
+.down{
+    visibility: hidden;
+}
+
+.bienvenidos{
+    visibility: hidden;
+}
+
+/****   FOR TABLET  ****/
+
+@media only screen and (min-width:600px){
+    body{
+    }
+    
+    
+    .header{
+        text-align: left;
+        height: 100vh;
+    }
+    
+    .background{
+        height: 100vh;
+        margin-top: -3%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .navbar{
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+        margin-right: 3%;
+        margin-top: 3%;
+    }
+    
+    .regina{
+        font-size: 1.5rem;
+        margin:0;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+    
+    
+    .item{
+        margin-right: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .bienvenidos{
+        visibility: visible;
+        font-weight: 800;
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .hola{
+        margin-top: 10rem;
+        width: 34rem;
+
+    }
+    
+    .welcome{
+        margin-top: -16rem;
+        position: absolute;
+        margin-left: -13rem;
+    }
+    
+    svg{
+        visibility: visible;
+        width: 23rem;
+        left: 28rem;
+        position: absolute;
+    }
+    
+    @keyframes welcome {
+    100% {
+        stroke-dashoffset: 0;
+    }
+    }   
+
+    #path{
+        stroke-dasharray: 8000;
+        stroke-dashoffset: 8000;
+        animation: welcome 3s linear forwards .5s;
+        stroke: #e38f73;
+    }
+    
+    .timezones{
+        margin-top: 15%;
+        visibility: visible;
+        font-weight: 600;
+        font-size: 1.3rem
+    }
+    
+    .time{
+        width: 10rem;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    h5{
+        font-weight: 400;
+        color:#E38F73;
+        margin-top: .8rem;
+    }
+
+    
+    .down{
+        visibility: visible;
+/*
+        display: flex;
+        flex-wrap: nowrap;
+*/
+        justify-content: center;
+        position: relative;
+        margin-bottom: 0rem;
+        height: 3rem;
+        width: 100%;
+        background-color: red;
+        align-items: center;
+    }
+    
+    #line{
+        width: 5rem;
+        height: .4rem;
+        background-color: white;
+        display: block;
+    }
+    
+    .down:hover + #line + #arrow {
+        display: block;
+    }
+    
+    #arrow{
+        display: none;
+        background-color: green;
+    }
+    
+    .projects{
+        margin-top: 9rem;
+    }
+    
+    .picture{
+        width: 33rem;
+        height: 24rem;
+        overflow: hidden;
+    }
+    
+    .picture img{
+        height: 24rem;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%)
+    }
+    
+    .title{
+        font-size: 2.5rem;
+        margin-top: 3.5rem;
+        width: 30rem;
+    }
+    
+    .description{
+        font-size: 1.25rem;
+        font-weight: lighter;
+        margin-top: 2rem;
+    }
+    
+    .backgroundb{
+    }
+    
+    .nameb{
+        visibility: visible;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        margin-left: 4%;
+        margin-top: .7rem;
+    }
+    
+    .bottom{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 
+    }
+    
+    .socialmedia{
+        margin-top:.4rem;
+        margin-right: 4%;
+    }
+    
+    .media{
+        margin-right: 1rem;
+        width: 1.8rem;
+        height:1.8rem;
+    }
+    
+}
+
+@media only screen and (min-width:960px){
+    body{
+    }
+    
+    .welcome{
+/*      move        */
+    }
+    
+    .bienvenidos {
+    }
+    
+    .timezones{
+        display: flex;
+        width: 27.7rem;
+        
+    }
+    
+    .down{
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+    
+    .projects{
+/*        margin-top: rem;*/
+    }
+    
+    .project{
+        display: flex;
+        text-align: left;
+        align-items: flex-end;
+        margin-top: 10rem;
+    }
+    
+    .picture{
+        width: 29rem;
+        height: 19.5rem;
+        margin-right: 0;
+        
+    }
+    
+    .text{
+        margin-left: 4.8rem;
+        margin-bottom: 0;
+    }
+    
+    .footer{
+        margin-top:14.5rem;
+    }
+    
+
+}
