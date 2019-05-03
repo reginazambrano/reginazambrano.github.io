@@ -181,10 +181,14 @@ body{
 .contactinfo{
     text-align: center;
     font-weight: 200;
+    align-content: center;
 }
 
 .contactinfo .socialmedia{
+    left: 0;
+    margin: 0;
     margin-top: 3rem;
+
 }
 
 .contactinfo .media{
