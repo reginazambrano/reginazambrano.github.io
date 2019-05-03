@@ -187,6 +187,18 @@ h3{
         font-weight: 600;
         padding-bottom: 2rem;
     }
+    
+    .nameb{
+        text-align: left;
+        left: 0;
+        position: absolute
+    }
+    
+    .socialmedia{
+        position: absolute;
+        right: 0;
+        
+    }
 
 }
 
